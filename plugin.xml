@@ -30,6 +30,8 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 
         <header-file src="src/ios/FirebaseAnalyticsPlugin.h" />
         <source-file src="src/ios/FirebaseAnalyticsPlugin.m" />
+               
+        <framework src="src/ios/firebase/FirebaseCore.framework" custom="true" />
     </platform>
 
     <platform name="android">
